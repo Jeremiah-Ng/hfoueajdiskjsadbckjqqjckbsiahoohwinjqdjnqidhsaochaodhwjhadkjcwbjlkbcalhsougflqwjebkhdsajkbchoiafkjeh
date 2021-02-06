@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url("race.gif");
+            background-position: center;
+            background-size: cover;
+            height: 750px;
+        }
+
+        #myCanvas {
+            border-width: 10px;
+            background-color: white;
+            border-style: ridge;
+        }
+
+        h1,
+        h4 {
+            color: white !important;
+        }
+
+        body {
+            overflow: hidden;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Vroom Vroom</title>
+</head>
+
+<body onload="add()">
+    <center>
+        <h1>Vroom Vroom. I am speed</h1>
+        <canvas id="myCanvas" width="800" height="590"></canvas>
+        <br>
+        <br>
+        <input type="number" id="lol" placeholder="Enter Car 1 Speed Here" max="270" min="2" value="40">
+        <br>
+        <br>
+        <input type="number" id="epic" placeholder="Enter Car 2 Speed Here" max="270" min="2" value="40">
+         <br>
+        <br>
+        <input type="number" id="e" placeholder="Enter Car 3 Speed Here" max="270" min="2" value="40">
+    </center>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
